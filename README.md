@@ -18,6 +18,36 @@ A secure and modular REST API built using Node.js, Express.js, MongoDB, and JWT 
     JWT for authentication
     Bcrypt for password hashing
 
+📁 Project Structure
+
+    AUTH-PROJECT/
+├── controllers/        # Business logic for each route
+├── middlewares/        # Custom Express middlewares (e.g., validators, auth checks)
+├── models/             # Mongoose models and schemas
+├── routers/            # Express routers mapping endpoints to controllers
+├── utils/              # Utility/helper functions
+├── .env                # Actual environment variables (not committed)
+├── .env.example        # Example environment config (for reference)
+├── .gitignore          # Files/folders to ignore by git
+├── index.js            # Entry point of the application
+├── package.json        # Project metadata and dependencies
+├── package-lock.json   # Dependency lock file
+└── README.md           # Project documentation
+
+
+🚀 Getting Started
+Prerequisites
+Node.js (v16+ recommended)
+
+MongoDB instance (local or cloud)
+
+📦 Installation
+Clone the repo:
+
+bash
+git clone https://github.com/your-username/auth-project.git
+cd auth-project
+
 📌 Future Improvements
 
 Swagger API documentation
