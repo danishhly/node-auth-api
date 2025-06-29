@@ -39,37 +39,6 @@ AUTH-PROJECT/
 ├── package-lock.json   # Dependency lock file
 └── README.md           # Project documentation
 
-Prerequisites
-Node.js (v16+ recommended)
-
-MongoDB instance (local or cloud)
-
-📦 Installation
-Clone the repo:
-
-bash
-Copy code
-git clone https://github.com/your-username/auth-project.git
-cd auth-project
-Install dependencies:
-
-bash
-Copy code
-npm install
-Setup environment variables:
-
-Create a .env file using .env.example as a template:
-
-bash
-Copy code
-cp .env.example .env
-Fill in the required environment variables in .env.
-
-🧪 Running the App
-bash
-Copy code
-npm start
-App should now be running on http://localhost:3000 (or your defined PORT).
 
 📁 Key Folders Explained
 controllers/: Handles logic for requests (e.g., register, login).
@@ -81,9 +50,6 @@ models/: Mongoose schemas for MongoDB collections.
 routers/: Defines API routes and links them to controllers.
 
 utils/: General utility functions (e.g., token generation, hashing).
-
-npm start       # Start the server
-npm run dev     # Start the server with nodemon (if configured)
 
 
 
